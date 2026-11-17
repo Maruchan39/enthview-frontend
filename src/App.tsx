@@ -1,11 +1,3 @@
-import './App.css'
+import { Home } from './Home.tsx'
 
-function App() {
-  return (
-    <section id="center">
-      <h1>enthview</h1>
-    </section>
-  )
-}
-
-export default App
+export const App = () => <Home />
