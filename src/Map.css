@@ -4,3 +4,14 @@
   min-height: 320px;
   border-block: 1px solid var(--border);
 }
+
+.driver-marker {
+  display: block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--bg);
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  background: #2563eb;
+}
